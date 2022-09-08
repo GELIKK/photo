@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
 body {
   margin: 0px;
   padding: 0px;
@@ -48,8 +51,10 @@ header nav ul li {
 header nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
   font-size: 20px;
   margin: 20px;
+  font-family: "Source Serif Pro", serif;
 }
 header nav ul li :hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -76,6 +81,7 @@ main section h1 {
   font-size: 60px;
   color: white;
   margin-top: 100px;
+  font-family: "Source Serif Pro", serif;
 }
 main section h2 {
   color: white;
@@ -103,6 +109,7 @@ main section footer {
 }
 .fashion section h1 {
   margin-left: 150px;
+  font-family: "Source Serif Pro", serif;
 
   display: inline;
   font-size: 60px;
@@ -191,6 +198,7 @@ main section footer {
 .about section article .left h3 {
   font-size: 60px;
   color: white;
+  font-family: "Source Serif Pro", serif;
 }
 .about section article .left p {
   color: white;
@@ -214,6 +222,7 @@ span {
   color: white;
   font-size: 60px;
   margin-left: 25px;
+  font-family: "Source Serif Pro", serif;
 }
 .album {
   width: 95%;
@@ -261,6 +270,7 @@ span {
   color: white;
   font-size: 14px;
   margin-top: 50px;
+  font-family: "Source Serif Pro", serif;
 }
 .overlay-1 {
   position: absolute;
@@ -283,6 +293,7 @@ span {
 .overlay-1 p {
   color: white;
   font-size: 40px;
+  font-family: "Permanent Marker", cursive;
 }
 /* contactooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 .contri {
@@ -304,6 +315,7 @@ span {
 .contributor aside p {
   color: white;
   margin-left: 27px;
+  font-family: "Source Serif Pro", serif;
 }
 .contributor aside div input {
   display: flex;

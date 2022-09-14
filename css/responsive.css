@@ -94,6 +94,19 @@
   .midle nav {
     display: none;
   }
+  .contributor {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  .contributor aside div input::placeholder {
+    font-size: 18px;
+  }
+  .contributor aside p {
+    font-size: 40px;
+  }
+  .text::placeholder {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 803px) {
   .about section .contunir {
@@ -101,7 +114,11 @@
     flex-wrap: wrap;
   }
   .about {
-    width: 700px;
+    width: 100%;
+  }
+  .contributor {
+    display: grid;
+    grid-template-rows: 1fr;
   }
 }
 @media screen and (max-width: 746px) {
